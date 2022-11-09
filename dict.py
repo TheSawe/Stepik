@@ -39,3 +39,36 @@ print(vals)
 vals = list(vals)
 print(type(vals))
 print(vals)
+print()
+
+print(sorted(players.values()))
+print()
+
+players_copy = players.copy()
+print(players)
+print()
+
+for k, v in players.items():
+    print(k, v)
+print()
+
+items = players.items()
+type_items = type(players.items())
+print(type_items)
+print(items)
+print()
+
+print(players.pop('Giri'))
+print(players)
+print()
+
+print(players.popitem())
+print(players)
+print()
+
+print(len(players))
+print()
+
+players.setdefault('Karjakin')
+print(players)
+print()
